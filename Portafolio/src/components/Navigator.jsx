@@ -1,3 +1,5 @@
+
+import Header from './Header'
 import Perfil from './Perfil'
 import Divisor from './Divisor'
 import Skills from './Skills'
@@ -11,6 +13,7 @@ import { FaHome, FaUser, FaSearch, FaEnvelopeOpenText} from 'react-icons/fa'
 function Navigator() {
   return (
     <>
+    <Header/>
     <Tabs defaultIndex={3}>
     <TabPanels>
         <TabPanel>
