@@ -11,11 +11,6 @@ import {
 function FormikExample() {
   return(
     <>
-    
-            <FormControl>
-                <FormLabel>Full name</FormLabel>
-                <Input type='text' />
-            </FormControl>
                 <FormControl>
                   <FormLabel>Email</FormLabel>
                   <Input placeholder='name' />

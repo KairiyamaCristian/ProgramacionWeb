@@ -5,24 +5,27 @@ import foto from '../assets/Perfil.jpeg'
 function Perfil() {
   return (
     <>
-      <Flex flex='1' gap='4' alignItems='center'>
+      <Flex flex='1' gap='4' alignItems='center' >
         <Image
             borderRadius='full'
-            boxSize='100px'
+            boxSize='2rem'
             src={foto}
             alt='Dan Abramov'
         />
             <Box> 
-            <Heading size='lg'>Proyectos</Heading>
+            <Heading size='md'>Proyectos</Heading>
             <Text >+3</Text>
             </Box>
             <Box> 
-            <Heading size='lg'>Certificados</Heading>
+            <Heading size='md'>Certificados</Heading>
             <Text>14</Text>
             </Box>
       </Flex>
-      <Text>
-        Programador del roque gonzalez
+      <Text padding='4'>
+        <Heading size='md'>Full Stack Developer</Heading>
+        <Text>Front: React in process...</Text>
+        <Text>Back: IA and Data Science in Process...</Text>
+      
       </Text>
     </>
   )
