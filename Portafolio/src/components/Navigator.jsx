@@ -21,7 +21,7 @@ function Navigator() {
     <Header/>
     </Box>
     <Tabs defaultIndex={3}>
-    <Box h='85vh'>
+    <Box h='90vh'>
     <TabPanels>
         <TabPanel>
           <Cards/>
