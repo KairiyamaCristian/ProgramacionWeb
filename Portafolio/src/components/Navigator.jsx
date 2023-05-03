@@ -17,11 +17,11 @@ function Navigator() {
     divider={<StackDivider borderColor='gray.200' />}
     align='stretch'
     margin='0'>
-    <Box h='100%' >
+    <Box >
     <Header/>
     </Box>
     <Tabs defaultIndex={3}>
-    <Box h='90vh'>
+    <Box h='85vh'>
     <TabPanels>
         <TabPanel>
           <Cards/>

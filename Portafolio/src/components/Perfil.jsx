@@ -5,10 +5,10 @@ import foto from '../assets/Perfil.jpeg'
 function Perfil() {
   return (
     <>
-      <Flex flex='1' gap='4' alignItems='center' >
+      <Flex flex='1' gap='8' alignItems='center' justifyContent='center' >
         <Image
             borderRadius='full'
-            boxSize='2rem'
+            boxSize='10rem'
             src={foto}
             alt='Dan Abramov'
         />
@@ -21,12 +21,15 @@ function Perfil() {
             <Text>14</Text>
             </Box>
       </Flex>
+      <Flex flex='2' alignItems='center' justifyContent='center'>
+
       <Text padding='4'>
         <Heading size='md'>Full Stack Developer</Heading>
         <Text>Front: React in process...</Text>
         <Text>Back: IA and Data Science in Process...</Text>
       
       </Text>
+      </Flex>
     </>
   )
 }
