@@ -6,8 +6,8 @@ function Header(){
 
     return(
         <>
-        <Flex justifyContent='space-around' alignItems='center'>
-        <Heading as='h5' size='md'>{"<Kairi/>"}</Heading>
+        <Flex justifyContent='space-around' alignItems='center' position='sticky' top='0'>
+            <Heading as='h5' size='md'>{"<Kairi/>"}</Heading>
             <Flex gap='4'>  
             <Link href='https://twitter.com/Kairi_Cris' isExternal>
             <Icon as={FaTwitter} boxSize='4'/>

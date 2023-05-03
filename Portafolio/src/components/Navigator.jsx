@@ -10,22 +10,6 @@ import { Icon } from '@chakra-ui/react'
 import { FaHome, FaUser, FaSearch, FaEnvelopeOpenText} from 'react-icons/fa'
 import { VStack, StackDivider,Box} from '@chakra-ui/react'
 
-{/* <VStack
-  divider={<StackDivider borderColor='gray.200' />}
-  spacing={4}
-  align='stretch'
->
-  <Box h='40px' bg='yellow.200'>
-    1
-  </Box>
-  <Box h='40px' bg='tomato'>
-    2
-  </Box>
-  <Box h='40px' bg='pink.100'>
-    3
-  </Box>
-</VStack> */}
-
 function Navigator() {
   return (
     <>
@@ -33,7 +17,7 @@ function Navigator() {
     divider={<StackDivider borderColor='gray.200' />}
     align='stretch'
     margin='0'>
-    <Box h='5vh'>
+    <Box h='100%' >
     <Header/>
     </Box>
     <Tabs defaultIndex={3}>
@@ -55,9 +39,9 @@ function Navigator() {
         </TabPanel>
     </TabPanels>
     </Box>
-    <Box h='5vh'>
-    <TabList>
-      <Flex flex='1' gap='8' justifyContent='space-evenly' botton='0'>
+    <Box h='-webkit-fill-available'>
+    <TabList >
+      <Flex flex='1' gap='8' justifyContent='space-evenly' position='sticky' bottom='0'>
         <Tab><Icon as={FaHome} /></Tab>
         <Tab><Icon as={FaSearch} /></Tab>
         <Tab><Icon as={FaEnvelopeOpenText} /></Tab>
