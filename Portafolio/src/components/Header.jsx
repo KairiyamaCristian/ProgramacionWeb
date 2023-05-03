@@ -9,13 +9,13 @@ function Header(){
         <Flex justifyContent='space-around' alignItems='center'>
         <Heading as='h5' size='md'>{"<Kairi/>"}</Heading>
             <Flex gap='4'>  
-            <Link href='https://chakra-ui.com' isExternal>
+            <Link href='https://twitter.com/Kairi_Cris' isExternal>
             <Icon as={FaTwitter} boxSize='4'/>
             </Link>
-            <Link href='https://chakra-ui.com' isExternal>
+            <Link href='https://instagram.com/kairiyamacristian' isExternal>
             <Icon as={FaInstagram} boxSize='4'/>
             </Link>
-            <Link href='https://chakra-ui.com' isExternal>
+            <Link href='https://github.com/KairiyamaCristian' isExternal>
             <Icon as={FaGithub} boxSize='4'/>
             </Link>
             <Link href='https://chakra-ui.com' isExternal>
