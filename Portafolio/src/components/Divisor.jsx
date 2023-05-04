@@ -10,13 +10,21 @@ import  Cards  from './Cards.jsx';
 
 
 //imagenes
-import django from '../assets/Django.png'
-import backend from '../assets/Backend.png'
-import frontend from '../assets/Front.png'
-import css from '../assets/Css.png'
-import javascript from '../assets/Javascript.png'
-import javascriptp from '../assets/Practico-javascript.png'
-import react from '../assets/React.png'
+import django from '../assets/certificados/Django.png'
+import backend from '../assets/certificados/Backend.png'
+import frontend from '../assets/certificados/Front.png'
+import css from '../assets/certificados/Css.png'
+import javascript from '../assets/certificados/Javascript.png'
+import javascriptp from '../assets/certificados/Practico-javascript.png'
+import react from '../assets/certificados/React.png'
+
+import portfolio from '../assets/proyectos/portafolio.png'
+import login from '../assets/proyectos/login.png'
+import admin from '../assets/proyectos/djangoadmin.png'
+import asistencia from '../assets/proyectos/asistencia.png'
+
+
+
 
 import {
   Drawer,
@@ -48,10 +56,10 @@ function Divisor() {
         <TabPanels>
           <TabPanel>
             <Grid templateColumns='repeat(3, 1fr)' gap={1}>
-              <GridItem w='100%' h='100' bg='blue.500' />
-              <GridItem w='100%' h='100' bg='blue.500' />
-              <GridItem w='100%' h='100' bg='blue.500' />
-              <GridItem w='100%' h='100' bg='blue.500' />
+              <Image src={login} alt='login'ref={btnRef} onClick={onOpen}/>
+              <Image src={asistencia} alt='asistencia'ref={btnRef} onClick={onOpen}/>
+              <Image src={admin} alt='admin'ref={btnRef} onClick={onOpen}/>
+              <Image src={portfolio} alt='portafolio'ref={btnRef} onClick={onOpen}/>
             </Grid>
           </TabPanel>
           <TabPanel>
