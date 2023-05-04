@@ -1,5 +1,5 @@
 
-import Header from './Header'
+
 import Perfil from './Perfil'
 import Divisor from './Divisor'
 import Skills from './Skills'
@@ -16,14 +16,15 @@ function Navigator() {
     <VStack  
     divider={<StackDivider borderColor='gray.200' />}
     align='stretch'
-    margin='0'>
-    <Box >
-    <Header/>
-    </Box>
-    <Tabs defaultIndex={3}>
-    <Box h='90vh'>
-    <TabPanels>
+    margin='0'
+    h='100vh'
+    >
+    <Tabs defaultIndex={3} h='100%' >
+    <Box>
+    <TabPanels >
         <TabPanel>
+          <Cards/>
+          <Cards/>
           <Cards/>
         </TabPanel>
         <TabPanel>
@@ -39,9 +40,9 @@ function Navigator() {
         </TabPanel>
     </TabPanels>
     </Box>
-    <Box h='-webkit-fill-available'>
-    <TabList >
-      <Flex flex='1' gap='8' justifyContent='space-evenly' position='sticky' bottom='0'>
+    <Box>
+    <TabList justifyContent='center' justifyItems='center'>
+      <Flex flex='1' gap='8' justifyContent='space-evenly' position='fixed' bottom='0'>
         <Tab><Icon as={FaHome} /></Tab>
         <Tab><Icon as={FaSearch} /></Tab>
         <Tab><Icon as={FaEnvelopeOpenText} /></Tab>

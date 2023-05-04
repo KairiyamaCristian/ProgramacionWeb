@@ -51,15 +51,6 @@ function Cards() {
         },
         }}
     >
-        <Button flex='1' variant='ghost'>
-        Like
-        </Button>
-        <Button flex='1' variant='ghost'>
-        Comment
-        </Button>
-        <Button flex='1' variant='ghost'>
-        Share
-        </Button>
     </CardFooter>
     </Card>
     )
