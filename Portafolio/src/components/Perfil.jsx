@@ -8,7 +8,7 @@ function Perfil() {
       <Flex flex='1' gap='8' alignItems='center' justifyContent='center' >
         <Image
             borderRadius='full'
-            boxSize='10rem'
+            boxSize='6rem'
             src={foto}
             alt='Dan Abramov'
         />
