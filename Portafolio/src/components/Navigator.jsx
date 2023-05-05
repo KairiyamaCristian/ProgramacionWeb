@@ -1,5 +1,5 @@
 
-
+import Dark from './darkmode'
 import Perfil from './Perfil'
 import Divisor from './Divisor'
 import Skills from './Skills'
@@ -9,6 +9,7 @@ import { Tabs, TabList, TabPanels, Tab, TabPanel, Flex} from '@chakra-ui/react'
 import { Icon } from '@chakra-ui/react'
 import { FaHome, FaUser, FaSearch, FaEnvelopeOpenText} from 'react-icons/fa'
 import { VStack, StackDivider,Box} from '@chakra-ui/react'
+
 
 function Navigator() {
   return (
@@ -23,18 +24,21 @@ function Navigator() {
     <Box>
     <TabPanels >
         <TabPanel>
-          <Cards/>
+          <Dark />
           <Cards/>
           <Cards/>
         </TabPanel>
         <TabPanel>
+          <Dark/>
           <Skills/>
         </TabPanel>
         <TabPanel>
+          <Dark/>
           <Contact/>
         </TabPanel>
         
         <TabPanel>
+          <Dark/>
           <Perfil/>
           <Divisor/>
         </TabPanel>

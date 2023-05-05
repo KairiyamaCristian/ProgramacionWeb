@@ -25,8 +25,8 @@ function Perfil() {
 
       <Text padding='4'>
         <Heading size='md'>Full Stack Developer</Heading>
-        <Text>Front: React in process...</Text>
-        <Text>Back: IA and Data Science in Process...</Text>
+        <Text>Front: Html, css and Javascript, react in process...</Text>
+        <Text>Back: IA and Data Science with python in Process...</Text>
       
       </Text>
       </Flex>

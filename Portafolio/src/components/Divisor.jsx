@@ -56,7 +56,7 @@ function Divisor() {
         <TabPanels>
           <TabPanel>
             <Grid templateColumns='repeat(3, 1fr)' gap={1}>
-              <Image src={login} alt='login'ref={btnRef} onClick={onOpen}/>
+              <Image src={login} alt='login'ref={btnRef} onClick={onOpen} />
               <Image src={asistencia} alt='asistencia'ref={btnRef} onClick={onOpen}/>
               <Image src={admin} alt='admin'ref={btnRef} onClick={onOpen}/>
               <Image src={portfolio} alt='portafolio'ref={btnRef} onClick={onOpen}/>
