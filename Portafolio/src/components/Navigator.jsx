@@ -21,23 +21,19 @@ function Navigator() {
     >
     <Tabs defaultIndex={3} h='100%'>
     <Box>
-    <TabPanels >`
+      <Dark/>
+    <TabPanels >
         <TabPanel>
-          <Dark />
           <Cards/>
           <Cards/>
         </TabPanel>
         <TabPanel>
-          <Dark/>
           <Skills/>
         </TabPanel>
         <TabPanel >
-          <Dark/>
           <Contact/>
         </TabPanel>
-        
         <TabPanel padding='0'>
-          <Dark/>
           <Perfil/>
           <Divisor/>
         </TabPanel>
