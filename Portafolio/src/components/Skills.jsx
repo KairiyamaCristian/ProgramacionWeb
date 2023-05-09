@@ -19,7 +19,7 @@ function Skills() {
     return(
         <>
         <Heading>Skills</Heading>
-        <Flex flexWrap='wrap' justifyContent='center '>
+        <Flex flexWrap='wrap' justifyContent='center' w='100%'>
             <Flex flexDirection='column' alignItems='center'>
                 <Image
                 borderRadius='full'

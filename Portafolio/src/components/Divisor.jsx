@@ -53,8 +53,8 @@ function Divisor() {
           </Flex>
         </TabList>
  
-        <TabPanels>
-          <TabPanel>
+        <TabPanels >
+          <TabPanel padding='0'>
             <Grid templateColumns='repeat(3, 1fr)' gap='1'>
               <Image src={login} alt='login'ref={btnRef} onClick={onOpen} />
               <Image src={asistencia} alt='asistencia'ref={btnRef} onClick={onOpen}/>
@@ -62,7 +62,7 @@ function Divisor() {
               <Image src={portfolio} alt='portafolio'ref={btnRef} onClick={onOpen}/>
             </Grid>
           </TabPanel>
-          <TabPanel>
+          <TabPanel padding='0'>
             <Grid templateColumns='repeat(3, 1fr)' gap='1'>
               <Image src={django} alt='django'ref={btnRef} onClick={onOpen}/>
               <Image src={backend} alt='backend'ref={btnRef} onClick={onOpen}/>

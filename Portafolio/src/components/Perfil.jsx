@@ -8,9 +8,9 @@ function Perfil() {
       <Flex flex='1' gap='8' alignItems='center' justifyContent='center' >
         <Image
             borderRadius='full'
-            boxSize='6rem'
+            boxSize='5rem'
             src={foto}
-            alt='Dan Abramov'
+            alt='Kairiyama Cristian'
         />
             <Box> 
             <Heading size='md'>Proyectos</Heading>

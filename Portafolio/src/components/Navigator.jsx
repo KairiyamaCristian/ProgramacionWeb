@@ -8,7 +8,7 @@ import Cards from './Cards'
 import { Tabs, TabList, TabPanels, Tab, TabPanel, Flex} from '@chakra-ui/react'
 import { Icon } from '@chakra-ui/react'
 import { FaHome, FaUser, FaSearch, FaEnvelopeOpenText} from 'react-icons/fa'
-import { VStack, StackDivider,Box} from '@chakra-ui/react'
+import { VStack,Box} from '@chakra-ui/react'
 
 
 function Navigator() {
