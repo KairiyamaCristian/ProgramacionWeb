@@ -55,7 +55,7 @@ function Divisor() {
  
         <TabPanels>
           <TabPanel>
-            <Grid templateColumns='repeat(3, 1fr)' gap={1}>
+            <Grid templateColumns='repeat(3, 1fr)' gap='1'>
               <Image src={login} alt='login'ref={btnRef} onClick={onOpen} />
               <Image src={asistencia} alt='asistencia'ref={btnRef} onClick={onOpen}/>
               <Image src={admin} alt='admin'ref={btnRef} onClick={onOpen}/>
@@ -63,7 +63,7 @@ function Divisor() {
             </Grid>
           </TabPanel>
           <TabPanel>
-            <Grid templateColumns='repeat(3, 1fr)' gap={1}>
+            <Grid templateColumns='repeat(3, 1fr)' gap='1'>
               <Image src={django} alt='django'ref={btnRef} onClick={onOpen}/>
               <Image src={backend} alt='backend'ref={btnRef} onClick={onOpen}/>
               <Image src={frontend} alt='frontend'ref={btnRef} onClick={onOpen}/>

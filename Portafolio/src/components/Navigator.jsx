@@ -16,8 +16,8 @@ function Navigator() {
     <>
     <VStack  
     divider={<StackDivider borderColor='gray.200' />}
-    align='stretch'
-    margin='0'
+    width={{ base: '100%', sm: '50%', md: '50%' }}
+    margin='auto'
     h='100vh'
     >
     <Tabs defaultIndex={3} h='100%' >
