@@ -15,14 +15,13 @@ function Navigator() {
   return (
     <>
     <VStack  
-    divider={<StackDivider borderColor='gray.200' />}
-    width={{ base: '100%', sm: '50%', md: '50%' }}
+    width={{ base: '100%', sm: '100%', md: '55%' }} 
     margin='auto'
     h='100vh'
     >
-    <Tabs defaultIndex={3} h='100%' >
+    <Tabs defaultIndex={3} h='100%'>
     <Box>
-    <TabPanels >
+    <TabPanels >`
         <TabPanel>
           <Dark />
           <Cards/>
