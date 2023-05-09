@@ -31,12 +31,12 @@ function Navigator() {
           <Dark/>
           <Skills/>
         </TabPanel>
-        <TabPanel>
+        <TabPanel >
           <Dark/>
           <Contact/>
         </TabPanel>
         
-        <TabPanel>
+        <TabPanel padding='0'>
           <Dark/>
           <Perfil/>
           <Divisor/>
