@@ -19,11 +19,11 @@ function Skills() {
     return(
         <>
         <Heading>Skills</Heading>
-        <Flex flexWrap='wrap'>
+        <Flex flexWrap='wrap' justifyContent='center '>
             <Flex flexDirection='column' alignItems='center'>
                 <Image
                 borderRadius='full'
-                boxSize='6rem'
+                boxSize='4rem'
                 src={logohtml}
                 alt='Dan Abramov'/>
                 <Text >Html</Text>
@@ -31,7 +31,7 @@ function Skills() {
             <Flex flexDirection='column' alignItems='center'>
                 <Image
                 borderRadius='full'
-                boxSize='6rem'
+                boxSize='4rem'
                 src={logocss}
                 alt='Dan Abramov'/>
                 <Text >Css</Text>
@@ -39,7 +39,7 @@ function Skills() {
             <Flex flexDirection='column' alignItems='center'>
                 <Image
                 borderRadius='full'
-                boxSize='6rem'
+                boxSize='4rem'
                 src={logojs}
                 alt='Dan Abramov'/>
                 <Text >Javascript</Text>
@@ -47,7 +47,7 @@ function Skills() {
             <Flex flexDirection='column' alignItems='center'>
                 <Image
                 borderRadius='full'
-                boxSize='6rem'
+                boxSize='4rem'
                 src={logoreact}
                 alt='Dan Abramov'/>
                 <Text >React</Text>
@@ -55,7 +55,7 @@ function Skills() {
             <Flex flexDirection='column' alignItems='center'>
                 <Image
                 borderRadius='full'
-                boxSize='6rem'
+                boxSize='4rem'
                 src={logodjango}
                 alt='Dan Abramov'/>
                 <Text >Django</Text>
@@ -63,7 +63,7 @@ function Skills() {
             <Flex flexDirection='column' alignItems='center'>
                 <Image
                 borderRadius='full'
-                boxSize='6rem'
+                boxSize='4rem'
                 src={logopython}
                 alt='Dan Abramov'/>
                 <Text >Python</Text>
@@ -71,7 +71,7 @@ function Skills() {
             <Flex flexDirection='column' alignItems='center'>
                 <Image
                 borderRadius='full'
-                boxSize='6rem'
+                boxSize='4rem'
                 src={logomysql}
                 alt='Dan Abramov'/>
                 <Text >Mysql</Text>
@@ -79,7 +79,7 @@ function Skills() {
             <Flex flexDirection='column' alignItems='center'>
                 <Image
                 borderRadius='full'
-                boxSize='6rem'
+                boxSize='4rem'
                 src={logogithub}
                 alt='Dan Abramov'/>
                 <Text >Github</Text>
