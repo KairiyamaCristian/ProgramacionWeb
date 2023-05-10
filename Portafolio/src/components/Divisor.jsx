@@ -23,8 +23,23 @@ import login from '../assets/proyectos/login.png'
 import admin from '../assets/proyectos/djangoadmin.png'
 import asistencia from '../assets/proyectos/asistencia.png'
 
+const SkillsImgs=[
+  django,
+  backend,
+  frontend,
+  css,
+  javascript,
+  javascriptp,
+  react
+]
 
+const ProyectsImgs=[
+  portfolio,
+  login,
+  admin,
+  asistencia
 
+]
 
 import {
   Drawer,
@@ -56,22 +71,20 @@ function Divisor() {
         <TabPanels >
           <TabPanel padding='0'>
             <Grid templateColumns='repeat(3, 1fr)' gap='1'>
-              <Image src={login} alt='login'ref={btnRef} onClick={onOpen} />
-              <Image src={asistencia} alt='asistencia'ref={btnRef} onClick={onOpen}/>
-              <Image src={admin} alt='admin'ref={btnRef} onClick={onOpen}/>
-              <Image src={portfolio} alt='portafolio'ref={btnRef} onClick={onOpen}/>
+            {ProyectsImgs.map((img) =>{
+              return(
+                <Image src={img} alt='django'ref={btnRef} onClick={onOpen}/>
+              )})
+              }
             </Grid>
           </TabPanel>
           <TabPanel padding='0'>
             <Grid templateColumns='repeat(3, 1fr)' gap='1'>
-              <Image src={django} alt='django'ref={btnRef} onClick={onOpen}/>
-              <Image src={backend} alt='backend'ref={btnRef} onClick={onOpen}/>
-              <Image src={frontend} alt='frontend'ref={btnRef} onClick={onOpen}/>
-              <Image src={css} alt='css'ref={btnRef} onClick={onOpen}/>
-              <Image src={javascript} alt='javascript'ref={btnRef} onClick={onOpen}/>
-              <Image src={javascriptp} alt='javascript'ref={btnRef} onClick={onOpen}/>
-              <Image src={react} alt='react'ref={btnRef} onClick={onOpen}/>
-
+              {SkillsImgs.map((img) =>{
+              return(
+                <Image src={img} alt='django'ref={btnRef} onClick={onOpen}/>
+              )})
+              }
             </Grid>
           </TabPanel>
         </TabPanels>

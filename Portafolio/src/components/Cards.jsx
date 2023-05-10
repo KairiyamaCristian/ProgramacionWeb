@@ -1,18 +1,19 @@
 
-import { Card, CardHeader, CardBody, CardFooter, Flex, Avatar} from '@chakra-ui/react'
-import { Box,Heading,IconButton, Image, Button } from "@chakra-ui/react";
+import { Card, CardHeader, CardBody, CardFooter, Flex} from '@chakra-ui/react'
+import { Box,Heading,IconButton, Image } from "@chakra-ui/react";
 import { FaHome} from 'react-icons/fa'
 import { Text } from '@chakra-ui/react'
-import  Foto  from '../assets/Perfil.jpeg'
+import { Avatar, AvatarGroup } from '@chakra-ui/react'
 
 
-function Cards() {
+function Cards(props) {
 
     return(
-    <Card maxW='md'>
+    <Card maxW='lg'>
     <CardHeader>
-        <Flex spacing='4'>
+        <Flex spacing='2'>
         <Flex flex='1' gap='4' alignItems='center' flexWrap='wrap'>
+        {props.children}
             <Avatar name='Kairi' />
 
             <Box>
@@ -29,28 +30,26 @@ function Cards() {
         />
         </Flex>
     </CardHeader>
-    <CardBody>
-        <Text>
+    <CardBody >
+
+    <Image
+        objectFit='cover'
+        src={props.foto}
+        alt='Foto de perfil'
+        borderRadius='16'
+    />
+    </CardBody>
+    <CardFooter>
+    <Text>
         Este Proyecto es un clon de instagram realizado con React y 
         librerias como chacra ui para ser utilizado como proyecto web 
         para ser utilizado como portafolio donde muestre mis proyectos...
-        </Text>
-    </CardBody>
-    <Image
-        objectFit='cover'
-        src={Foto}
-        alt='Foto de perfil'
-    />
-
-    <CardFooter
-        justify='space-between'
-        flexWrap='wrap'
-        sx={{
-        '& > button': {
-            minW: '136px',
-        },
-        }}
-    >
+    </Text>
+    <AvatarGroup size='md' max={2} padding='1'>
+        <Avatar name='Ryan Florence' src='https://bit.ly/ryan-florence' />
+        <Avatar name='Segun Adebayo' src='https://bit.ly/sage-adebayo' />
+        <Avatar name='Kent Dodds' src='https://bit.ly/kent-c-dodds' />
+    </AvatarGroup>
     </CardFooter>
     </Card>
     )

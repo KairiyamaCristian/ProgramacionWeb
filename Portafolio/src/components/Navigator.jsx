@@ -9,7 +9,7 @@ import { Tabs, TabList, TabPanels, Tab, TabPanel, Flex} from '@chakra-ui/react'
 import { Icon } from '@chakra-ui/react'
 import { FaHome, FaUser, FaSearch, FaEnvelopeOpenText} from 'react-icons/fa'
 import { VStack,Box} from '@chakra-ui/react'
-
+import  Foto  from '../assets/Perfil.jpeg'
 
 function Navigator() {
   return (
@@ -24,11 +24,14 @@ function Navigator() {
     <Box>
     <TabPanels >
         <TabPanel>
-          <Cards/>
+          <Cards foto={Foto}>
+          </Cards>
           <Cards/>
         </TabPanel>
         <TabPanel>
+          <Cards>
           <Skills/>
+          </Cards>
         </TabPanel>
         <TabPanel >
           <Contact/>
