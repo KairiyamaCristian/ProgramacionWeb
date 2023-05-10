@@ -19,9 +19,9 @@ function Navigator() {
     margin='auto'
     h='100vh'
     >
+      <Dark/>
     <Tabs defaultIndex={3} h='100%'>
     <Box>
-      <Dark/>
     <TabPanels >
         <TabPanel>
           <Cards/>
@@ -33,7 +33,7 @@ function Navigator() {
         <TabPanel >
           <Contact/>
         </TabPanel>
-        <TabPanel padding='0'>
+        <TabPanel>
           <Perfil/>
           <Divisor/>
         </TabPanel>
