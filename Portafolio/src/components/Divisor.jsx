@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { useDisclosure} from '@chakra-ui/react'
-import { Grid, GridItem, Image ,Flex} from '@chakra-ui/react'
+import { Grid, GridItem, Image ,Flex, Text} from '@chakra-ui/react'
 import { Tabs, TabList, TabPanels, Tab, TabPanel} from '@chakra-ui/react'
 import { Icon, Button, Input} from '@chakra-ui/react'
 import { FaTh, FaAddressCard} from 'react-icons/fa'
@@ -22,6 +22,8 @@ import portfolio from '../assets/proyectos/portafolio.png'
 import login from '../assets/proyectos/login.png'
 import admin from '../assets/proyectos/djangoadmin.png'
 import asistencia from '../assets/proyectos/asistencia.png'
+
+import githublink from '../assets/git.png'
 
 const SkillsImgs=[
   django,
@@ -101,8 +103,8 @@ function Divisor() {
           <DrawerCloseButton />
           
           <DrawerBody>
-            <Cards >
-
+            <Cards foto={githublink}>
+              <Text>Conoce mas de mis proyectos en github....</Text>
             </Cards>
           </DrawerBody>
 
@@ -110,7 +112,7 @@ function Divisor() {
             <Button variant='outline' mr={3} onClick={onClose}>
               Cancel
             </Button>
-            <Button colorScheme='blue'>Save</Button>
+            <Button colorScheme='blue'>Ir hacia Github</Button>
           </DrawerFooter>
         </DrawerContent>
       </Drawer>
