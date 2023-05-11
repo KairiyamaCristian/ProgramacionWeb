@@ -50,12 +50,13 @@ import {
   DrawerCloseButton,
 } from '@chakra-ui/react'
 
+import { useState } from 'react';
+
 function Divisor() {
   
+
   const { isOpen, onOpen, onClose } = useDisclosure()
   const btnRef = React.useRef()
-  
-
   
   return (
     <>
@@ -100,7 +101,9 @@ function Divisor() {
           <DrawerCloseButton />
           
           <DrawerBody>
-            <Cards/>
+            <Cards >
+
+            </Cards>
           </DrawerBody>
 
           <DrawerFooter>

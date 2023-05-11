@@ -15,6 +15,7 @@ import logolinux from "../assets/logos/linux.png";
 
 
 
+
 function Skills() {
     return(
         <>
@@ -44,46 +45,8 @@ function Skills() {
                 alt='Dan Abramov'/>
                 <Text >Javascript</Text>
             </Flex>
-            <Flex flexDirection='column' alignItems='center'>
-                <Image
-                borderRadius='full'
-                boxSize='4rem'
-                src={logoreact}
-                alt='Dan Abramov'/>
-                <Text >React</Text>
-            </Flex>
-            <Flex flexDirection='column' alignItems='center'>
-                <Image
-                borderRadius='full'
-                boxSize='4rem'
-                src={logodjango}
-                alt='Dan Abramov'/>
-                <Text >Django</Text>
-            </Flex>
-            <Flex flexDirection='column' alignItems='center'>
-                <Image
-                borderRadius='full'
-                boxSize='4rem'
-                src={logopython}
-                alt='Dan Abramov'/>
-                <Text >Python</Text>
-            </Flex>
-            <Flex flexDirection='column' alignItems='center'>
-                <Image
-                borderRadius='full'
-                boxSize='4rem'
-                src={logomysql}
-                alt='Dan Abramov'/>
-                <Text >Mysql</Text>
-            </Flex>
-            <Flex flexDirection='column' alignItems='center'>
-                <Image
-                borderRadius='full'
-                boxSize='4rem'
-                src={logogithub}
-                alt='Dan Abramov'/>
-                <Text >Github</Text>
-            </Flex>
+
+
         </Flex>
 
         </>
