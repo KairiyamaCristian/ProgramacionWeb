@@ -13,7 +13,13 @@ import { FaHome, FaUser, FaSearch, FaEnvelopeOpenText} from 'react-icons/fa'
 import { VStack,Box} from '@chakra-ui/react'
 
 //
-import  Foto  from '../assets/Perfil.jpeg'
+// import  Foto  from '../assets/Perfil.jpeg'
+// import  kairi8  from '../assets/kairi/kairi8.jpg'
+// import  kairi9  from '../assets/kairi/kairi9.jpg'
+// import  kairi10  from '../assets/kairi/kairi10.jpg'
+// import  kairi11  from '../assets/kairi/kairi11.jpg'
+// import  kairi12  from '../assets/kairi/kairi12.jpg'
+// import  kairi13  from '../assets/kairi/kairi3.jpg'
 import  kairi  from '../assets/kairi/kairi_ciberpunk.jpg'
 import  kairi2  from '../assets/kairi/kairipj.jpg'
 import  kairi3  from '../assets/kairi/kairipj2.jpg'
@@ -21,12 +27,6 @@ import  kairi4  from '../assets/kairi/kairi4.jpg'
 import  kairi5  from '../assets/kairi/kairi5.jpg'
 import  kairi6  from '../assets/kairi/kairi6.jpg'
 import  kairi7  from '../assets/kairi/kairi7.jpg'
-import  kairi8  from '../assets/kairi/kairi8.jpg'
-import  kairi9  from '../assets/kairi/kairi9.jpg'
-import  kairi10  from '../assets/kairi/kairi10.jpg'
-import  kairi11  from '../assets/kairi/kairi11.jpg'
-import  kairi12  from '../assets/kairi/kairi12.jpg'
-import  kairi13  from '../assets/kairi/kairi3.jpg'
 
 
 

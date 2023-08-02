@@ -6,8 +6,6 @@ import {
   } from '@chakra-ui/react'  
 
 // The below import defines which components come from formik
-
-
 function FormikExample() {
   return(
     <>

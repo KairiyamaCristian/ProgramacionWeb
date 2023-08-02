@@ -2,9 +2,9 @@
 
 import React from 'react'
 import { useDisclosure} from '@chakra-ui/react'
-import { Grid, GridItem, Image ,Flex, Text} from '@chakra-ui/react'
+import { Grid, Image ,Flex, Text} from '@chakra-ui/react'
 import { Tabs, TabList, TabPanels, Tab, TabPanel} from '@chakra-ui/react'
-import { Icon, Button, Input} from '@chakra-ui/react'
+import { Icon, Button} from '@chakra-ui/react'
 import { FaTh, FaAddressCard} from 'react-icons/fa'
 import  Cards  from './Cards.jsx';
 
@@ -52,11 +52,8 @@ import {
   DrawerCloseButton,
 } from '@chakra-ui/react'
 
-import { useState } from 'react';
-
 function Divisor() {
   
-
   const { isOpen, onOpen, onClose } = useDisclosure()
   const btnRef = React.useRef()
   
@@ -74,18 +71,18 @@ function Divisor() {
         <TabPanels >
           <TabPanel padding='0'>
             <Grid templateColumns='repeat(3, 1fr)' gap='1'>
-            {ProyectsImgs.map((img) =>{
+            {ProyectsImgs.map((img, index) =>{
               return(
-                <Image src={img} alt='django'ref={btnRef} onClick={onOpen}/>
+                <Image key={`project-${index}`} src={img} alt='django'ref={btnRef} onClick={onOpen}/>
               )})
               }
             </Grid>
           </TabPanel>
           <TabPanel padding='0'>
             <Grid templateColumns='repeat(3, 1fr)' gap='1'>
-              {SkillsImgs.map((img) =>{
+              {SkillsImgs.map((img, index) =>{
               return(
-                <Image src={img} alt='django'ref={btnRef} onClick={onOpen}/>
+                <Image key={`skill-${index}`} src={img} alt='django'ref={btnRef} onClick={onOpen}/>
               )})
               }
             </Grid>

@@ -21,14 +21,12 @@ function Perfil() {
             <Text>14</Text>
             </Box>
       </Flex>
-      <Flex flex='2' alignItems='center' justifyContent='center'>
+      <Flex flex='2' alignItems='center' justifyContent='center' flexDirection='column' >
 
-      <Text padding='4'>
-        <Heading size='md'>Full Stack Developer</Heading>
-        <Text>Front: Html, css and Javascript, react in process...</Text>
-        <Text>Back: IA and Data Science with python in Process...</Text>
-      
-      </Text>
+        <Text padding='4' align='center'>Full Stack Developer, Front with Html, Css and Javascript, react in process...
+        Back: IA and Data Science with python in Process...
+        </Text>
+
       </Flex>
     </>
   )
